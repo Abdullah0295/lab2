@@ -1,0 +1,10 @@
+org 100h
+MOV AL,8
+MOV BL,2
+MUL BL
+
+ret
+
+
+
+

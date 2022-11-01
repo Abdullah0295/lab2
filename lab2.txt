@@ -1,0 +1,23 @@
+.model tiny
+.code
+org 100h
+
+main proc near
+
+mov ah,09h
+mov dx,offset message
+int 24h
+
+mov ah,4ch
+mov al,00
+int 24h
+
+endp
+message db "hello"
+
+
+
+end mai
+
+
+
